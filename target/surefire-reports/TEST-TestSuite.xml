@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="71.418" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="105.261" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/rushabh.bhagyawant/cusp-qa/target/surefire/surefirebooter-20260716131300646_3.jar /home/rushabh.bhagyawant/cusp-qa/target/surefire 2026-07-16T13-13-00_567-jvmRun1 surefire-20260716131300646_1tmp surefire_0-20260716131300646_2tmp"/>
+    <property name="sun.java.command" value="/home/rushabh.bhagyawant/cusp-qa/target/surefire/surefirebooter-20260716165829505_3.jar /home/rushabh.bhagyawant/cusp-qa/target/surefire 2026-07-16T16-58-29_368-jvmRun1 surefire-20260716165829505_1tmp surefire_0-20260716165829505_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/rushabh.bhagyawant/cusp-qa/target/test-classes:/home/rushabh.bhagyawant/cusp-qa/target/classes:/home/rushabh.bhagyawant/.m2/repository/io/appium/java-client/10.1.1/java-client-10.1.1.jar:/home/rushabh.bhagyawant/.m2/repository/org/seleniumhq/selenium/selenium-api/4.46.0/selenium-api-4.46.0.jar:/home/rushabh.bhagyawant/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.46.0/selenium-remote-driver-4.46.0.jar:/home/rushabh.bhagyawant/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/rushabh.bhagyawant/.m2/repository/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar:/home/rushabh.bhagyawant/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/home/rushabh.bhagyawant/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/rushabh.bhagyawant/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/home/rushabh.bhagyawant/.m2/repository/io/opentelemetry/opentelemetry-api/1.64.0/opentelemetry-api-1.64.0.jar:/home/rushabh.bhagyawant/.m2/repository/io/opentelemetry/opentelemetry-context/1.64.0/opentelemetry-context-1.64.0.jar:/home/rushabh.bhagyawant/.m2/repository/io/opentelemetry/opentelemetry-common/1.64.0/opentelemetry-common-1.64.0.jar:/home/rushabh.bhagyawant/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.64.0/opentelemetry-exporter-logging-1.64.0.jar:/home/rushabh.bhagyawant/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.64.0/opentelemetry-sdk-common-1.64.0.jar:/home/rushabh.bhagyawant/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.64.0/opentelemetry-sdk-extension-autoconfigure-spi-1.64.0.jar:/home/rushabh.bhagyawant/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.64.0/opentelemetry-sdk-extension-autoconfigure-1.64.0.jar:/home/rushabh.bhagyawant/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.64.0/opentelemetry-sdk-trace-1.64.0.jar:/home/rushabh.bhagyawant/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.64.0/opentelemetry-sdk-1.64.0.jar:/home/rushabh.bhagyawant/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.64.0/opentelemetry-sdk-metrics-1.64.0.jar:/home/rushabh.bhagyawant/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.64.0/opentelemetry-sdk-logs-1.64.0.jar:/home/rushabh.bhagyawant/.m2/repository/net/bytebuddy/byte-buddy/1.18.11/byte-buddy-1.18.11.jar:/home/rushabh.bhagyawant/.m2/repository/org/seleniumhq/selenium/selenium-http/4.46.0/selenium-http-4.46.0.jar:/home/rushabh.bhagyawant/.m2/repository/org/seleniumhq/selenium/selenium-json/4.46.0/selenium-json-4.46.0.jar:/home/rushabh.bhagyawant/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.46.0/selenium-manager-4.46.0.jar:/home/rushabh.bhagyawant/.m2/repository/org/seleniumhq/selenium/selenium-os/4.46.0/selenium-os-4.46.0.jar:/home/rushabh.bhagyawant/.m2/repository/org/seleniumhq/selenium/selenium-support/4.46.0/selenium-support-4.46.0.jar:/home/rushabh.bhagyawant/.m2/repository/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar:/home/rushabh.bhagyawant/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/home/rushabh.bhagyawant/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/rushabh.bhagyawant/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/rushabh.bhagyawant/.m2/repository/commons-io/commons-io/2.18.0/commons-io-2.18.0.jar:/home/rushabh.bhagyawant/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/home/rushabh.bhagyawant/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/rushabh.bhagyawant/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/home/rushabh.bhagyawant/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/home/rushabh.bhagyawant/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/home/rushabh.bhagyawant/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/home/rushabh.bhagyawant/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/home/rushabh.bhagyawant/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/home/rushabh.bhagyawant/.m2/repository/org/apache/logging/log4j/log4j-core/2.24.3/log4j-core-2.24.3.jar:/home/rushabh.bhagyawant/.m2/repository/org/apache/logging/log4j/log4j-slf4j2-impl/2.24.3/log4j-slf4j2-impl-2.24.3.jar:/home/rushabh.bhagyawant/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.2/jackson-databind-2.18.2.jar:/home/rushabh.bhagyawant/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.2/jackson-annotations-2.18.2.jar:/home/rushabh.bhagyawant/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.2/jackson-core-2.18.2.jar:/home/rushabh.bhagyawant/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.18.2/jackson-dataformat-yaml-2.18.2.jar:/home/rushabh.bhagyawant/.m2/repository/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar:/home/rushabh.bhagyawant/.m2/repository/io/qameta/allure/allure-testng/2.29.0/allure-testng-2.29.0.jar:/home/rushabh.bhagyawant/.m2/repository/io/qameta/allure/allure-java-commons/2.29.0/allure-java-commons-2.29.0.jar:/home/rushabh.bhagyawant/.m2/repository/io/qameta/allure/allure-model/2.29.0/allure-model-2.29.0.jar:/home/rushabh.bhagyawant/.m2/repository/io/qameta/allure/allure-test-filter/2.29.0/allure-test-filter-2.29.0.jar:/home/rushabh.bhagyawant/.m2/repository/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar:/home/rushabh.bhagyawant/.m2/repository/org/aeonbits/owner/owner/1.0.12/owner-1.0.12.jar:"/>
     <property name="allure.results.directory" value="/home/rushabh.bhagyawant/cusp-qa/allure-results"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/rushabh.bhagyawant/cusp-qa/target/surefire/surefirebooter-20260716131300646_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/rushabh.bhagyawant/cusp-qa/target/surefire/surefirebooter-20260716165829505_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.11+10-1-24.04.2-Ubuntu"/>
     <property name="user.name" value="rushabh.bhagyawant"/>
@@ -56,22 +56,28 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testAppLaunchDisplaysScreen" classname="com.cusp.qa.login.CuspLoginTest" time="4.13">
-    <system-out><![CDATA[2026-07-16 13:13:01 [INFO] com.cusp.qa.login.CuspLoginTest: === Test Suite Started ===
-2026-07-16 13:13:01 [INFO] com.cusp.qa.login.CuspLoginTest: Starting test: testAppLaunchDisplaysScreen
-2026-07-16 13:13:02 [INFO] com.cusp.qa.config.ConfigLoader: Configuration loaded successfully
-2026-07-16 13:13:02 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
-2026-07-16 13:13:02 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
-2026-07-16 13:13:06 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: a9e4ad73-a488-4bf5-b3a3-0354321e83c3
-2026-07-16 13:13:10 [INFO] com.cusp.qa.login.CuspLoginTest: TC01 PASS — App launched. Screen text: Keep it simple.
+  <testcase name="testAppLaunchDisplaysScreen" classname="com.cusp.qa.login.CuspLoginTest" time="3.107">
+    <system-out><![CDATA[2026-07-16 16:58:30 [INFO] com.cusp.qa.login.CuspLoginTest: === Test Suite Started ===
+2026-07-16 16:58:30 [INFO] com.cusp.qa.login.CuspLoginTest: Starting test: testAppLaunchDisplaysScreen
+2026-07-16 16:58:30 [INFO] com.cusp.qa.config.ConfigLoader: Configuration loaded successfully
+2026-07-16 16:58:31 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 16:58:31 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 16:58:35 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: 819cd348-312a-4142-b8d3-6189ad0694b3
+2026-07-16 16:58:38 [INFO] com.cusp.qa.login.CuspLoginTest: TC01 PASS — App launched. Screen text: Keep it simple.
 ]]></system-out>
   </testcase>
-  <testcase name="testLoginWithMobileAndOtp" classname="com.cusp.qa.login.CuspLoginTest" time="51.316">
-    <failure message="Should have navigated away from OTP screen after successful login expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Should have navigated away from OTP screen after successful login expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertFalse(Assert.java:79)
-	at com.cusp.qa.login.CuspLoginTest.testLoginWithMobileAndOtp(CuspLoginTest.java:162)
+  <testcase name="testLoginWithMobileAndOtp" classname="com.cusp.qa.login.CuspLoginTest" time="89.098">
+    <failure message="Expected condition failed: waiting for presence of element found by AppiumBy.androidUIAutomator: new UiSelector().text(&quot;Home&quot;)&#10;(tried for 30 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-35-generic&apos;, java.version: &apos;21.0.11&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appium:adbExecTimeout: 120000, appium:appActivity: com.cuspmoney.app.MainActivity, appium:appPackage: com.infocusp.cuspmoney, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, appActivity: com.cuspmoney.app.MainActivity, appPackage: com.infocusp.cuspmoney, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: RushabhDevice, fullReset: false, newCommandTimeout: 120, noReset: false, platformName: ANDROID, skipDeviceInitialization: true, udid: emulator-5554, uiautomator2ServerInstallTimeout: 120000, uiautomator2ServerLaunchTimeout: 120000}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2424, appium:deviceUDID: emulator-5554, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 120, appium:noReset: false, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:skipDeviceInitialization: true, appium:statBarHeight: 137, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:uiautomator2ServerInstallTimeout: 120000, appium:uiautomator2ServerLaunchTimeout: 120000, appium:viewportRect: {height: 2287, left: 0, top: 137, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: eead4cdb-f2af-49dd-8b01-920d247400db" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for presence of element found by AppiumBy.androidUIAutomator: new UiSelector().text("Home")
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-35-generic', java.version: '21.0.11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:adbExecTimeout: 120000, appium:appActivity: com.cuspmoney.app.MainActivity, appium:appPackage: com.infocusp.cuspmoney, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, appActivity: com.cuspmoney.app.MainActivity, appPackage: com.infocusp.cuspmoney, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: RushabhDevice, fullReset: false, newCommandTimeout: 120, noReset: false, platformName: ANDROID, skipDeviceInitialization: true, udid: emulator-5554, uiautomator2ServerInstallTimeout: 120000, uiautomator2ServerLaunchTimeout: 120000}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2424, appium:deviceUDID: emulator-5554, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 120, appium:noReset: false, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:skipDeviceInitialization: true, appium:statBarHeight: 137, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:uiautomator2ServerInstallTimeout: 120000, appium:uiautomator2ServerLaunchTimeout: 120000, appium:viewportRect: {height: 2287, left: 0, top: 137, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: eead4cdb-f2af-49dd-8b01-920d247400db
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.cusp.qa.login.CuspLoginTest.testLoginWithMobileAndOtp(CuspLoginTest.java:158)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -103,26 +109,26 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[2026-07-16 13:13:10 [INFO] com.cusp.qa.login.CuspLoginTest: Test PASSED: testAppLaunchDisplaysScreen
-2026-07-16 13:13:11 [INFO] com.cusp.qa.driver.DriverManager: Driver closed
-2026-07-16 13:13:12 [INFO] com.cusp.qa.login.CuspLoginTest: Starting test: testLoginWithMobileAndOtp
-2026-07-16 13:13:12 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
-2026-07-16 13:13:12 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
-2026-07-16 13:13:17 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: 0425c2d7-87ff-45bc-aa17-5ba4b010cfd5
-2026-07-16 13:13:17 [INFO] com.cusp.qa.login.CuspLoginTest: Step 1: Tapping through onboarding carousel
-2026-07-16 13:13:45 [INFO] com.cusp.qa.login.CuspLoginTest: Tapped Continue at (540,2111)
-2026-07-16 13:13:46 [INFO] com.cusp.qa.login.CuspLoginTest: Get started visible after 5 carousel taps
-2026-07-16 13:13:46 [INFO] com.cusp.qa.login.CuspLoginTest: Step 2: Tapping Get started
-2026-07-16 13:13:49 [INFO] com.cusp.qa.login.CuspLoginTest: Step 3: Dismissing Google phone picker if present
-2026-07-16 13:13:51 [INFO] com.cusp.qa.login.CuspLoginTest: Dismissed Google phone picker
-2026-07-16 13:13:52 [INFO] com.cusp.qa.login.CuspLoginTest: Step 4: Entering mobile number 6351738122
-2026-07-16 13:13:57 [INFO] com.cusp.qa.login.CuspLoginTest: Entered mobile number via ADB
-2026-07-16 13:13:58 [INFO] com.cusp.qa.login.CuspLoginTest: Step 5: Waiting for OTP screen
-2026-07-16 13:13:58 [INFO] com.cusp.qa.login.CuspLoginTest: OTP screen loaded
-2026-07-16 13:13:59 [INFO] com.cusp.qa.login.CuspLoginTest: Step 6: Entering OTP 123456 via ADB
-2026-07-16 13:14:00 [INFO] com.cusp.qa.login.CuspLoginTest: OTP entered via ADB
-2026-07-16 13:14:02 [INFO] com.cusp.qa.login.CuspLoginTest: Step 8: Tapping Verify button
-2026-07-16 13:14:07 [INFO] com.cusp.qa.login.CuspLoginTest: Step 9: Verifying login succeeded
+    <system-out><![CDATA[2026-07-16 16:58:38 [INFO] com.cusp.qa.login.CuspLoginTest: Test PASSED: testAppLaunchDisplaysScreen
+2026-07-16 16:58:39 [INFO] com.cusp.qa.driver.DriverManager: Driver closed
+2026-07-16 16:58:39 [INFO] com.cusp.qa.login.CuspLoginTest: Starting test: testLoginWithMobileAndOtp
+2026-07-16 16:58:39 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 16:58:39 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 16:58:43 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: eead4cdb-f2af-49dd-8b01-920d247400db
+2026-07-16 16:58:43 [INFO] com.cusp.qa.login.CuspLoginTest: Step 1: Waiting for onboarding carousel to reach Get started
+2026-07-16 16:59:11 [INFO] com.cusp.qa.login.CuspLoginTest: Tapped Continue at y=2111
+2026-07-16 16:59:12 [INFO] com.cusp.qa.login.CuspLoginTest: Get started visible after 5 loop iterations
+2026-07-16 16:59:12 [INFO] com.cusp.qa.login.CuspLoginTest: Step 2: Tapping Get started
+2026-07-16 16:59:14 [INFO] com.cusp.qa.login.CuspLoginTest: Step 3: Dismissing Google sign-in picker if present
+2026-07-16 16:59:19 [INFO] com.cusp.qa.login.CuspLoginTest: Dismissed sign-in Google picker
+2026-07-16 16:59:20 [INFO] com.cusp.qa.login.CuspLoginTest: Step 4: Entering mobile number 6351738122
+2026-07-16 16:59:28 [INFO] com.cusp.qa.login.CuspLoginTest: Mobile number entered via ADB — app will auto-submit on 10 digits
+2026-07-16 16:59:28 [INFO] com.cusp.qa.login.CuspLoginTest: Step 5: Waiting for OTP screen
+2026-07-16 16:59:28 [INFO] com.cusp.qa.login.CuspLoginTest: OTP screen loaded
+2026-07-16 16:59:29 [INFO] com.cusp.qa.login.CuspLoginTest: Step 6: Entering OTP 123456 digit by digit via keyevents
+2026-07-16 16:59:33 [INFO] com.cusp.qa.login.CuspLoginTest: OTP digits sent — app auto-navigates when all boxes turn green
+2026-07-16 16:59:36 [INFO] com.cusp.qa.login.CuspLoginTest: Step 7: Handling notification permission dialog if present
+2026-07-16 16:59:41 [INFO] com.cusp.qa.login.CuspLoginTest: Step 8: Verifying home screen loaded
 ]]></system-out>
   </testcase>
 </testsuite>

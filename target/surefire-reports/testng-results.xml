@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-16T13:13:01 IST" name="Cusp Smoke Suite" finished-at="2026-07-16T13:14:11 IST" duration-ms="69718">
+  <suite started-at="2026-07-16T16:58:30 IST" name="Cusp Smoke Suite" finished-at="2026-07-16T17:00:14 IST" duration-ms="103795">
     <groups>
       <group name="smoke">
         <method signature="CuspLoginTest.testAppLaunchDisplaysScreen()[pri:0, instance:com.cusp.qa.login.CuspLoginTest@34a1d21f]" name="testAppLaunchDisplaysScreen" class="com.cusp.qa.login.CuspLoginTest"/>
         <method signature="CuspLoginTest.testLoginWithMobileAndOtp()[pri:0, instance:com.cusp.qa.login.CuspLoginTest@34a1d21f]" name="testLoginWithMobileAndOtp" class="com.cusp.qa.login.CuspLoginTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-07-16T13:13:01 IST" name="Smoke Tests" finished-at="2026-07-16T13:14:11 IST" duration-ms="69718">
+    <test started-at="2026-07-16T16:58:30 IST" name="Smoke Tests" finished-at="2026-07-16T17:00:14 IST" duration-ms="103795">
       <class name="com.cusp.qa.login.CuspLoginTest">
-        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:com.cusp.qa.login.CuspLoginTest@34a1d21f]" started-at="2026-07-16T13:13:01 IST" name="suiteSetup" finished-at="2026-07-16T13:13:01 IST" duration-ms="151" status="PASS">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:com.cusp.qa.login.CuspLoginTest@34a1d21f]" started-at="2026-07-16T16:58:30 IST" name="suiteSetup" finished-at="2026-07-16T16:58:30 IST" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetup -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.cusp.qa.login.CuspLoginTest@34a1d21f]" started-at="2026-07-16T13:13:01 IST" name="setUp" finished-at="2026-07-16T13:13:06 IST" duration-ms="4768" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.cusp.qa.login.CuspLoginTest@34a1d21f]" started-at="2026-07-16T16:58:30 IST" name="setUp" finished-at="2026-07-16T16:58:35 IST" duration-ms="4817" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAppLaunchDisplaysScreen()[pri:0, instance:com.cusp.qa.login.CuspLoginTest@34a1d21f]" started-at="2026-07-16T13:13:06 IST" name="testAppLaunchDisplaysScreen" description="TC01 - App launches and opening screen is displayed" finished-at="2026-07-16T13:13:10 IST" duration-ms="4101" status="PASS">
+        <test-method signature="testAppLaunchDisplaysScreen()[pri:0, instance:com.cusp.qa.login.CuspLoginTest@34a1d21f]" started-at="2026-07-16T16:58:35 IST" name="testAppLaunchDisplaysScreen" description="TC01 - App launches and opening screen is displayed" finished-at="2026-07-16T16:58:38 IST" duration-ms="3097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAppLaunchDisplaysScreen -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.cusp.qa.login.CuspLoginTest@34a1d21f]" started-at="2026-07-16T13:13:10 IST" name="tearDown" finished-at="2026-07-16T13:13:11 IST" duration-ms="1059" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.cusp.qa.login.CuspLoginTest@34a1d21f]" started-at="2026-07-16T16:58:38 IST" name="tearDown" finished-at="2026-07-16T16:58:39 IST" duration-ms="547" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.cusp.qa.login.CuspLoginTest@34a1d21f]" started-at="2026-07-16T13:13:11 IST" name="setUp" finished-at="2026-07-16T13:13:17 IST" duration-ms="5446" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.cusp.qa.login.CuspLoginTest@34a1d21f]" started-at="2026-07-16T16:58:39 IST" name="setUp" finished-at="2026-07-16T16:58:43 IST" duration-ms="4463" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,17 +52,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginWithMobileAndOtp()[pri:0, instance:com.cusp.qa.login.CuspLoginTest@34a1d21f]" started-at="2026-07-16T13:13:17 IST" name="testLoginWithMobileAndOtp" description="TC02 - Login with mobile 6351738122 and OTP 123456" finished-at="2026-07-16T13:14:08 IST" depends-on-methods="com.cusp.qa.login.CuspLoginTest.testAppLaunchDisplaysScreen" duration-ms="51297" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="testLoginWithMobileAndOtp()[pri:0, instance:com.cusp.qa.login.CuspLoginTest@34a1d21f]" started-at="2026-07-16T16:58:43 IST" name="testLoginWithMobileAndOtp" description="TC02 - Login with mobile 6351738122 and OTP 123456" finished-at="2026-07-16T17:00:12 IST" depends-on-methods="com.cusp.qa.login.CuspLoginTest.testAppLaunchDisplaysScreen" duration-ms="89087" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Should have navigated away from OTP screen after successful login expected [false] but found [true]]]>
+              <![CDATA[Expected condition failed: waiting for presence of element found by AppiumBy.androidUIAutomator: new UiSelector().text("Home")
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-35-generic', java.version: '21.0.11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:adbExecTimeout: 120000, appium:appActivity: com.cuspmoney.app.MainActivity, appium:appPackage: com.infocusp.cuspmoney, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, appActivity: com.cuspmoney.app.MainActivity, appPackage: com.infocusp.cuspmoney, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: RushabhDevice, fullReset: false, newCommandTimeout: 120, noReset: false, platformName: ANDROID, skipDeviceInitialization: true, udid: emulator-5554, uiautomator2ServerInstallTimeout: 120000, uiautomator2ServerLaunchTimeout: 120000}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2424, appium:deviceUDID: emulator-5554, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 120, appium:noReset: false, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:skipDeviceInitialization: true, appium:statBarHeight: 137, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:uiautomator2ServerInstallTimeout: 120000, appium:uiautomator2ServerLaunchTimeout: 120000, appium:viewportRect: {height: 2287, left: 0, top: 137, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: eead4cdb-f2af-49dd-8b01-920d247400db]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Should have navigated away from OTP screen after successful login expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertFalse(Assert.java:79)
-at com.cusp.qa.login.CuspLoginTest.testLoginWithMobileAndOtp(CuspLoginTest.java:162)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element found by AppiumBy.androidUIAutomator: new UiSelector().text("Home")
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-35-generic', java.version: '21.0.11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:adbExecTimeout: 120000, appium:appActivity: com.cuspmoney.app.MainActivity, appium:appPackage: com.infocusp.cuspmoney, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, appActivity: com.cuspmoney.app.MainActivity, appPackage: com.infocusp.cuspmoney, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: RushabhDevice, fullReset: false, newCommandTimeout: 120, noReset: false, platformName: ANDROID, skipDeviceInitialization: true, udid: emulator-5554, uiautomator2ServerInstallTimeout: 120000, uiautomator2ServerLaunchTimeout: 120000}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2424, appium:deviceUDID: emulator-5554, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 120, appium:noReset: false, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:skipDeviceInitialization: true, appium:statBarHeight: 137, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:uiautomator2ServerInstallTimeout: 120000, appium:uiautomator2ServerLaunchTimeout: 120000, appium:viewportRect: {height: 2287, left: 0, top: 137, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: eead4cdb-f2af-49dd-8b01-920d247400db
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+at com.cusp.qa.login.CuspLoginTest.testLoginWithMobileAndOtp(CuspLoginTest.java:158)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -95,11 +106,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithMobileAndOtp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.cusp.qa.login.CuspLoginTest@34a1d21f]" started-at="2026-07-16T13:14:08 IST" name="tearDown" finished-at="2026-07-16T13:14:11 IST" duration-ms="2874" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.cusp.qa.login.CuspLoginTest@34a1d21f]" started-at="2026-07-16T17:00:12 IST" name="tearDown" finished-at="2026-07-16T17:00:14 IST" duration-ms="1661" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,7 +121,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:com.cusp.qa.login.CuspLoginTest@34a1d21f]" started-at="2026-07-16T13:14:11 IST" name="suiteTearDown" finished-at="2026-07-16T13:14:12 IST" duration-ms="512" status="PASS">
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:com.cusp.qa.login.CuspLoginTest@34a1d21f]" started-at="2026-07-16T17:00:14 IST" name="suiteTearDown" finished-at="2026-07-16T17:00:14 IST" duration-ms="341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTearDown -->

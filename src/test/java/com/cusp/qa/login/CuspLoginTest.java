@@ -30,7 +30,10 @@ public class CuspLoginTest extends BaseTest {
     private static final By OTP_SCREEN    = AppiumBy.androidUIAutomator("new UiSelector().text(\"Enter verification code\")");
     private static final By NOTIF_ALLOW   = AppiumBy.androidUIAutomator(
         "new UiSelector().resourceId(\"com.android.permissioncontroller:id/permission_allow_button\")");
-    private static final By HOME_SCREEN   = AppiumBy.androidUIAutomator("new UiSelector().text(\"Home\")");
+    private static final By HOME_TAB      = AppiumBy.androidUIAutomator(
+        "new UiSelector().resourceId(\"com.infocusp.cuspmoney:id/nav_home\")");
+    private static final By NET_WORTH_LABEL = AppiumBy.androidUIAutomator(
+        "new UiSelector().textContains(\"Net Worth\")");
 
     // ── TC01 ──────────────────────────────────────────────────────────────────
 
@@ -155,7 +158,9 @@ public class CuspLoginTest extends BaseTest {
 
         // Step 8: Verify home screen reached
         log.info("Step 8: Verifying home screen loaded");
-        wait.until(ExpectedConditions.presenceOfElementLocated(HOME_SCREEN));
+        wait.until(ExpectedConditions.or(
+            ExpectedConditions.presenceOfElementLocated(HOME_TAB),
+            ExpectedConditions.presenceOfElementLocated(NET_WORTH_LABEL)));
         log.info("TC02 PASS — Login successful, home screen reached with mobile {}", mobile);
     }
 }

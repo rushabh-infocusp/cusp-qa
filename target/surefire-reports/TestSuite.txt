@@ -1,13 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 71.42 s <<< FAILURE! -- in TestSuite
-com.cusp.qa.login.CuspLoginTest.testLoginWithMobileAndOtp -- Time elapsed: 51.32 s <<< FAILURE!
-java.lang.AssertionError: Should have navigated away from OTP screen after successful login expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertFalse(Assert.java:79)
-	at com.cusp.qa.login.CuspLoginTest.testLoginWithMobileAndOtp(CuspLoginTest.java:162)
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 105.3 s <<< FAILURE! -- in TestSuite
+com.cusp.qa.login.CuspLoginTest.testLoginWithMobileAndOtp -- Time elapsed: 89.10 s <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for presence of element found by AppiumBy.androidUIAutomator: new UiSelector().text("Home")
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-35-generic', java.version: '21.0.11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:adbExecTimeout: 120000, appium:appActivity: com.cuspmoney.app.MainActivity, appium:appPackage: com.infocusp.cuspmoney, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, appActivity: com.cuspmoney.app.MainActivity, appPackage: com.infocusp.cuspmoney, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: RushabhDevice, fullReset: false, newCommandTimeout: 120, noReset: false, platformName: ANDROID, skipDeviceInitialization: true, udid: emulator-5554, uiautomator2ServerInstallTimeout: 120000, uiautomator2ServerLaunchTimeout: 120000}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2424, appium:deviceUDID: emulator-5554, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 120, appium:noReset: false, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:skipDeviceInitialization: true, appium:statBarHeight: 137, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:uiautomator2ServerInstallTimeout: 120000, appium:uiautomator2ServerLaunchTimeout: 120000, appium:viewportRect: {height: 2287, left: 0, top: 137, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: eead4cdb-f2af-49dd-8b01-920d247400db
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.cusp.qa.login.CuspLoginTest.testLoginWithMobileAndOtp(CuspLoginTest.java:158)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)

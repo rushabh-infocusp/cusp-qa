@@ -2,11 +2,6 @@
 <suite name="Cusp Smoke Suite" verbose="1" thread-count="1">
 
     <test name="Smoke Tests">
-        <groups>
-            <run>
-                <include name="smoke"/>
-            </run>
-        </groups>
         <classes>
             <class name="com.cusp.qa.login.CuspLoginTest"/>
             <class name="com.cusp.qa.onboarding.OnboardingTest"/>

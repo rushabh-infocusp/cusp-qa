@@ -9,14 +9,22 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Cusp Smoke Suite</th></tr>
-<tr><td><a href="#t0">Smoke Tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">69,718</td><td>smoke</td><td></td></tr>
+<tr><td><a href="#t0">Smoke Tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">103,795</td><td>smoke</td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Cusp Smoke Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Smoke Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.cusp.qa.login.CuspLoginTest</td><td><a href="#m0">testLoginWithMobileAndOtp</a></td><td rowspan="1">1784187797446</td><td rowspan="1">51297</td></tr><tr><th colspan="4">Smoke Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.cusp.qa.login.CuspLoginTest</td><td><a href="#m1">testAppLaunchDisplaysScreen</a></td><td rowspan="1">1784187786796</td><td rowspan="1">4101</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Cusp Smoke Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Smoke Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.cusp.qa.login.CuspLoginTest</td><td><a href="#m0">testLoginWithMobileAndOtp</a></td><td rowspan="1">1784201323802</td><td rowspan="1">89087</td></tr><tr><th colspan="4">Smoke Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.cusp.qa.login.CuspLoginTest</td><td><a href="#m1">testAppLaunchDisplaysScreen</a></td><td rowspan="1">1784201315672</td><td rowspan="1">3097</td></tr></tbody>
 </table>
-<h2>Smoke Tests</h2><h3 id="m0">com.cusp.qa.login.CuspLoginTest#testLoginWithMobileAndOtp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Should have navigated away from OTP screen after successful login expected [false] but found [true]
-	at com.cusp.qa.login.CuspLoginTest.testLoginWithMobileAndOtp(CuspLoginTest.java:162)
+<h2>Smoke Tests</h2><h3 id="m0">com.cusp.qa.login.CuspLoginTest#testLoginWithMobileAndOtp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element found by AppiumBy.androidUIAutomator: new UiSelector().text(&quot;Home&quot;)
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-35-generic&apos;, java.version: &apos;21.0.11&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:adbExecTimeout: 120000, appium:appActivity: com.cuspmoney.app.MainActivity, appium:appPackage: com.infocusp.cuspmoney, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, appActivity: com.cuspmoney.app.MainActivity, appPackage: com.infocusp.cuspmoney, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: RushabhDevice, fullReset: false, newCommandTimeout: 120, noReset: false, platformName: ANDROID, skipDeviceInitialization: true, udid: emulator-5554, uiautomator2ServerInstallTimeout: 120000, uiautomator2ServerLaunchTimeout: 120000}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2424, appium:deviceUDID: emulator-5554, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 120, appium:noReset: false, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:skipDeviceInitialization: true, appium:statBarHeight: 137, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:uiautomator2ServerInstallTimeout: 120000, appium:uiautomator2ServerLaunchTimeout: 120000, appium:viewportRect: {height: 2287, left: 0, top: 137, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: eead4cdb-f2af-49dd-8b01-920d247400db
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.cusp.qa.login.CuspLoginTest.testLoginWithMobileAndOtp(CuspLoginTest.java:158)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.cusp.qa.login.CuspLoginTest#testAppLaunchDisplaysScreen</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

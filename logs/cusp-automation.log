@@ -238,3 +238,175 @@
 2026-07-16 13:32:58 [INFO] com.cusp.qa.login.CuspLoginTest: OTP digits sent — app auto-navigates when all boxes turn green
 2026-07-16 13:33:01 [INFO] com.cusp.qa.login.CuspLoginTest: Step 7: Handling notification permission dialog if present
 2026-07-16 13:33:07 [INFO] com.cusp.qa.login.CuspLoginTest: Step 8: Verifying home screen loaded
+2026-07-16 16:52:16 [INFO] com.cusp.qa.login.CuspLoginTest: === Test Suite Started ===
+2026-07-16 16:52:16 [INFO] com.cusp.qa.login.CuspLoginTest: Starting test: testAppLaunchDisplaysScreen
+2026-07-16 16:52:16 [INFO] com.cusp.qa.config.ConfigLoader: Configuration loaded successfully
+2026-07-16 16:52:16 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 16:52:16 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 16:54:18 [WARN] com.cusp.qa.login.CuspLoginTest: Test SKIPPED: testAppLaunchDisplaysScreen
+2026-07-16 16:54:18 [INFO] com.cusp.qa.login.CuspLoginTest: === Test Suite Completed ===
+2026-07-16 16:58:30 [INFO] com.cusp.qa.login.CuspLoginTest: === Test Suite Started ===
+2026-07-16 16:58:30 [INFO] com.cusp.qa.login.CuspLoginTest: Starting test: testAppLaunchDisplaysScreen
+2026-07-16 16:58:30 [INFO] com.cusp.qa.config.ConfigLoader: Configuration loaded successfully
+2026-07-16 16:58:31 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 16:58:31 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 16:58:35 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: 819cd348-312a-4142-b8d3-6189ad0694b3
+2026-07-16 16:58:38 [INFO] com.cusp.qa.login.CuspLoginTest: TC01 PASS — App launched. Screen text: Keep it simple.
+2026-07-16 16:58:38 [INFO] com.cusp.qa.login.CuspLoginTest: Test PASSED: testAppLaunchDisplaysScreen
+2026-07-16 16:58:39 [INFO] com.cusp.qa.driver.DriverManager: Driver closed
+2026-07-16 16:58:39 [INFO] com.cusp.qa.login.CuspLoginTest: Starting test: testLoginWithMobileAndOtp
+2026-07-16 16:58:39 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 16:58:39 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 16:58:43 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: eead4cdb-f2af-49dd-8b01-920d247400db
+2026-07-16 16:58:43 [INFO] com.cusp.qa.login.CuspLoginTest: Step 1: Waiting for onboarding carousel to reach Get started
+2026-07-16 16:59:11 [INFO] com.cusp.qa.login.CuspLoginTest: Tapped Continue at y=2111
+2026-07-16 16:59:12 [INFO] com.cusp.qa.login.CuspLoginTest: Get started visible after 5 loop iterations
+2026-07-16 16:59:12 [INFO] com.cusp.qa.login.CuspLoginTest: Step 2: Tapping Get started
+2026-07-16 16:59:14 [INFO] com.cusp.qa.login.CuspLoginTest: Step 3: Dismissing Google sign-in picker if present
+2026-07-16 16:59:19 [INFO] com.cusp.qa.login.CuspLoginTest: Dismissed sign-in Google picker
+2026-07-16 16:59:20 [INFO] com.cusp.qa.login.CuspLoginTest: Step 4: Entering mobile number 6351738122
+2026-07-16 16:59:28 [INFO] com.cusp.qa.login.CuspLoginTest: Mobile number entered via ADB — app will auto-submit on 10 digits
+2026-07-16 16:59:28 [INFO] com.cusp.qa.login.CuspLoginTest: Step 5: Waiting for OTP screen
+2026-07-16 16:59:28 [INFO] com.cusp.qa.login.CuspLoginTest: OTP screen loaded
+2026-07-16 16:59:29 [INFO] com.cusp.qa.login.CuspLoginTest: Step 6: Entering OTP 123456 digit by digit via keyevents
+2026-07-16 16:59:33 [INFO] com.cusp.qa.login.CuspLoginTest: OTP digits sent — app auto-navigates when all boxes turn green
+2026-07-16 16:59:36 [INFO] com.cusp.qa.login.CuspLoginTest: Step 7: Handling notification permission dialog if present
+2026-07-16 16:59:41 [INFO] com.cusp.qa.login.CuspLoginTest: Step 8: Verifying home screen loaded
+2026-07-16 17:00:12 [ERROR] com.cusp.qa.login.CuspLoginTest: Test FAILED: testLoginWithMobileAndOtp
+2026-07-16 17:00:14 [INFO] com.cusp.qa.driver.DriverManager: Driver closed
+2026-07-16 17:00:14 [INFO] com.cusp.qa.login.CuspLoginTest: === Test Suite Completed ===
+2026-07-16 17:08:40 [INFO] com.cusp.qa.login.CuspLoginTest: === Test Suite Started ===
+2026-07-16 17:08:40 [INFO] com.cusp.qa.login.CuspLoginTest: Starting test: testAppLaunchDisplaysScreen
+2026-07-16 17:08:40 [INFO] com.cusp.qa.config.ConfigLoader: Configuration loaded successfully
+2026-07-16 17:08:40 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 17:08:40 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 17:10:42 [WARN] com.cusp.qa.login.CuspLoginTest: Test SKIPPED: testAppLaunchDisplaysScreen
+2026-07-16 17:10:42 [INFO] com.cusp.qa.onboarding.OnboardingTest: Starting test: testNavigateToLogin
+2026-07-16 17:10:43 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 17:10:43 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 17:10:47 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: 690d2d3b-6722-4279-a448-482208bf3724
+2026-07-16 17:10:47 [DEBUG] com.cusp.qa.pages.onboarding.SplashPage: Tapping: AppiumBy.androidUIAutomator: new UiSelector().text("Get Started")
+2026-07-16 17:11:08 [ERROR] com.cusp.qa.onboarding.OnboardingTest: Test FAILED: testNavigateToLogin
+2026-07-16 17:11:10 [INFO] com.cusp.qa.driver.DriverManager: Driver closed
+2026-07-16 17:11:10 [INFO] com.cusp.qa.onboarding.OnboardingTest: Starting test: testOtpPageLoaded
+2026-07-16 17:11:10 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 17:11:10 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 17:11:15 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: 721a0609-ae70-4a06-b3e7-69338c32fbcc
+2026-07-16 17:11:15 [DEBUG] com.cusp.qa.pages.onboarding.SplashPage: Tapping: AppiumBy.androidUIAutomator: new UiSelector().text("Get Started")
+2026-07-16 17:11:36 [ERROR] com.cusp.qa.onboarding.OnboardingTest: Test FAILED: testOtpPageLoaded
+2026-07-16 17:11:38 [INFO] com.cusp.qa.driver.DriverManager: Driver closed
+2026-07-16 17:11:38 [INFO] com.cusp.qa.onboarding.OnboardingTest: Starting test: testResendOtpVisible
+2026-07-16 17:11:38 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 17:11:38 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 17:12:06 [WARN] com.cusp.qa.onboarding.OnboardingTest: Test SKIPPED: testResendOtpVisible
+2026-07-16 17:12:06 [INFO] com.cusp.qa.onboarding.OnboardingTest: Starting test: testSplashScreenDisplayed
+2026-07-16 17:12:06 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 17:12:06 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 17:12:25 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: 3c3df020-ca23-4f17-9c5f-050ac67d66aa
+2026-07-16 17:12:25 [WARN] com.cusp.qa.onboarding.OnboardingTest: Test SKIPPED: testSplashScreenDisplayed
+2026-07-16 17:12:25 [INFO] com.cusp.qa.driver.DriverManager: Driver closed
+2026-07-16 17:12:25 [INFO] com.cusp.qa.onboarding.OnboardingTest: Starting test: testSuccessfulLogin
+2026-07-16 17:12:26 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 17:12:26 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 17:12:30 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: 8cc55083-82d0-417f-904d-b60d4fec1132
+2026-07-16 17:12:30 [WARN] com.cusp.qa.onboarding.OnboardingTest: Test SKIPPED: testSuccessfulLogin
+2026-07-16 17:12:31 [INFO] com.cusp.qa.driver.DriverManager: Driver closed
+2026-07-16 17:12:31 [INFO] com.cusp.qa.onboarding.OnboardingTest: Starting test: testValidMobileEntry
+2026-07-16 17:12:31 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 17:12:31 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 17:12:35 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: 87bc62b1-1341-44f4-9982-903b1dabe39f
+2026-07-16 17:12:35 [WARN] com.cusp.qa.onboarding.OnboardingTest: Test SKIPPED: testValidMobileEntry
+2026-07-16 17:12:35 [INFO] com.cusp.qa.driver.DriverManager: Driver closed
+2026-07-16 17:12:35 [INFO] com.cusp.qa.home.HomeTest: Starting test: testHomeScreenLoaded
+2026-07-16 17:12:35 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 17:12:35 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 17:12:39 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: a3f3050e-3752-45ec-ac6a-b70c69dc978b
+2026-07-16 17:12:39 [DEBUG] com.cusp.qa.pages.onboarding.SplashPage: Tapping: AppiumBy.androidUIAutomator: new UiSelector().text("Get Started")
+2026-07-16 17:13:00 [WARN] com.cusp.qa.home.HomeTest: Test SKIPPED: testHomeScreenLoaded
+2026-07-16 17:13:01 [INFO] com.cusp.qa.driver.DriverManager: Driver closed
+2026-07-16 17:13:01 [INFO] com.cusp.qa.home.HomeTest: Starting test: testInvestmentsTabNavigation
+2026-07-16 17:13:01 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 17:13:01 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 17:19:06 [INFO] com.cusp.qa.login.CuspLoginTest: === Test Suite Started ===
+2026-07-16 17:19:06 [INFO] com.cusp.qa.login.CuspLoginTest: Starting test: testAppLaunchDisplaysScreen
+2026-07-16 17:19:06 [INFO] com.cusp.qa.config.ConfigLoader: Configuration loaded successfully
+2026-07-16 17:19:07 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 17:19:07 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 17:19:18 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: cb47d965-bf0a-4c6d-a9dc-43aa6f2aec03
+2026-07-16 17:19:23 [INFO] com.cusp.qa.login.CuspLoginTest: TC01 PASS — App launched. Screen text: Keep it simple.
+2026-07-16 17:19:23 [INFO] com.cusp.qa.login.CuspLoginTest: Test PASSED: testAppLaunchDisplaysScreen
+2026-07-16 17:19:25 [INFO] com.cusp.qa.driver.DriverManager: Driver closed
+2026-07-16 17:19:25 [INFO] com.cusp.qa.login.CuspLoginTest: Starting test: testLoginWithMobileAndOtp
+2026-07-16 17:19:25 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 17:19:25 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 17:19:31 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: 73b58a43-d0a8-4d13-9088-3b99890880b3
+2026-07-16 17:19:31 [INFO] com.cusp.qa.login.CuspLoginTest: Step 1: Waiting for onboarding carousel to reach Get started
+2026-07-16 17:19:59 [INFO] com.cusp.qa.login.CuspLoginTest: Tapped Continue at y=2111
+2026-07-16 17:20:01 [INFO] com.cusp.qa.login.CuspLoginTest: Get started visible after 5 loop iterations
+2026-07-16 17:20:01 [INFO] com.cusp.qa.login.CuspLoginTest: Step 2: Tapping Get started
+2026-07-16 17:20:03 [INFO] com.cusp.qa.login.CuspLoginTest: Step 3: Dismissing Google sign-in picker if present
+2026-07-16 17:20:06 [INFO] com.cusp.qa.login.CuspLoginTest: Dismissed sign-in Google picker
+2026-07-16 17:20:07 [INFO] com.cusp.qa.login.CuspLoginTest: Step 4: Entering mobile number 6351738122
+2026-07-16 17:20:12 [INFO] com.cusp.qa.login.CuspLoginTest: Mobile number entered via ADB — app will auto-submit on 10 digits
+2026-07-16 17:20:12 [INFO] com.cusp.qa.login.CuspLoginTest: Step 5: Waiting for OTP screen
+2026-07-16 17:20:13 [INFO] com.cusp.qa.login.CuspLoginTest: OTP screen loaded
+2026-07-16 17:20:14 [INFO] com.cusp.qa.login.CuspLoginTest: Step 6: Entering OTP 123456 digit by digit via keyevents
+2026-07-16 17:20:17 [INFO] com.cusp.qa.login.CuspLoginTest: OTP digits sent — app auto-navigates when all boxes turn green
+2026-07-16 17:20:20 [INFO] com.cusp.qa.login.CuspLoginTest: Step 7: Handling notification permission dialog if present
+2026-07-16 17:20:26 [INFO] com.cusp.qa.login.CuspLoginTest: Step 8: Verifying home screen loaded
+2026-07-16 17:21:12 [ERROR] com.cusp.qa.login.CuspLoginTest: Test FAILED: testLoginWithMobileAndOtp
+2026-07-16 17:21:18 [INFO] com.cusp.qa.driver.DriverManager: Driver closed
+2026-07-16 17:21:18 [INFO] com.cusp.qa.onboarding.OnboardingTest: Starting test: testNavigateToLogin
+2026-07-16 17:21:19 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 17:21:19 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 17:21:23 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: eea42723-2876-444c-98c8-e13cd4bee406
+2026-07-16 17:21:23 [DEBUG] com.cusp.qa.pages.onboarding.SplashPage: Tapping: AppiumBy.androidUIAutomator: new UiSelector().text("Get Started")
+2026-07-16 17:21:45 [ERROR] com.cusp.qa.onboarding.OnboardingTest: Test FAILED: testNavigateToLogin
+2026-07-16 17:21:47 [INFO] com.cusp.qa.driver.DriverManager: Driver closed
+2026-07-16 17:21:47 [INFO] com.cusp.qa.onboarding.OnboardingTest: Starting test: testOtpPageLoaded
+2026-07-16 17:21:47 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 17:21:47 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 17:21:51 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: eaf46a1f-9067-4271-b7d6-ecb0daec1086
+2026-07-16 17:21:51 [DEBUG] com.cusp.qa.pages.onboarding.SplashPage: Tapping: AppiumBy.androidUIAutomator: new UiSelector().text("Get Started")
+2026-07-16 17:22:13 [ERROR] com.cusp.qa.onboarding.OnboardingTest: Test FAILED: testOtpPageLoaded
+2026-07-16 17:22:15 [INFO] com.cusp.qa.driver.DriverManager: Driver closed
+2026-07-16 17:22:15 [INFO] com.cusp.qa.onboarding.OnboardingTest: Starting test: testResendOtpVisible
+2026-07-16 17:22:15 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 17:22:15 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 17:22:19 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: 41f9f61d-1e75-4db2-9460-86d2902ca3a9
+2026-07-16 17:22:19 [DEBUG] com.cusp.qa.pages.onboarding.SplashPage: Tapping: AppiumBy.androidUIAutomator: new UiSelector().text("Get Started")
+2026-07-16 17:22:40 [ERROR] com.cusp.qa.onboarding.OnboardingTest: Test FAILED: testResendOtpVisible
+2026-07-16 17:22:42 [INFO] com.cusp.qa.driver.DriverManager: Driver closed
+2026-07-16 17:22:42 [INFO] com.cusp.qa.onboarding.OnboardingTest: Starting test: testSplashScreenDisplayed
+2026-07-16 17:22:42 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 17:22:42 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 17:22:47 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: be6682f7-23a6-4c29-9b91-d08a84c1fe2b
+2026-07-16 17:22:53 [ERROR] com.cusp.qa.onboarding.OnboardingTest: Test FAILED: testSplashScreenDisplayed
+2026-07-16 17:22:55 [INFO] com.cusp.qa.driver.DriverManager: Driver closed
+2026-07-16 17:22:55 [INFO] com.cusp.qa.onboarding.OnboardingTest: Starting test: testSuccessfulLogin
+2026-07-16 17:22:55 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 17:22:55 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 17:23:00 [INFO] com.cusp.qa.driver.DriverManager: Driver initialised successfully. Session ID: 2573d0db-635b-4e30-9065-1b8600ae0ba1
+2026-07-16 17:23:00 [DEBUG] com.cusp.qa.pages.onboarding.SplashPage: Tapping: AppiumBy.androidUIAutomator: new UiSelector().text("Get Started")
+2026-07-16 17:23:42 [ERROR] com.cusp.qa.onboarding.OnboardingTest: Test FAILED: testSuccessfulLogin
+2026-07-16 17:23:42 [ERROR] com.cusp.qa.utils.ScreenshotUtils: Failed to capture screenshot bytes: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-35-generic', java.version: '21.0.11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [2573d0db-635b-4e30-9065-1b8600ae0ba1, screenshot {}]
+Capabilities {appium:adbExecTimeout: 120000, appium:appActivity: com.cuspmoney.app.MainActivity, appium:appPackage: com.infocusp.cuspmoney, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 120000, appActivity: com.cuspmoney.app.MainActivity, appPackage: com.infocusp.cuspmoney, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: RushabhDevice, fullReset: false, newCommandTimeout: 120, noReset: false, platformName: ANDROID, skipDeviceInitialization: true, udid: emulator-5554, uiautomator2ServerInstallTimeout: 120000, uiautomator2ServerLaunchTimeout: 120000}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2424, appium:deviceUDID: emulator-5554, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 120, appium:noReset: false, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:skipDeviceInitialization: true, appium:statBarHeight: 137, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:uiautomator2ServerInstallTimeout: 120000, appium:uiautomator2ServerLaunchTimeout: 120000, appium:viewportRect: {height: 2287, left: 0, top: 137, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 2573d0db-635b-4e30-9065-1b8600ae0ba1
+2026-07-16 17:23:42 [INFO] com.cusp.qa.onboarding.OnboardingTest: Starting test: testValidMobileEntry
+2026-07-16 17:23:42 [WARN] com.cusp.qa.onboarding.OnboardingTest: Test SKIPPED: testValidMobileEntry
+2026-07-16 17:23:42 [INFO] com.cusp.qa.home.HomeTest: Starting test: testHomeScreenLoaded
+2026-07-16 17:23:42 [DEBUG] com.cusp.qa.pages.onboarding.SplashPage: Tapping: AppiumBy.androidUIAutomator: new UiSelector().text("Get Started")
+2026-07-16 17:23:42 [WARN] com.cusp.qa.home.HomeTest: Test SKIPPED: testHomeScreenLoaded
+2026-07-16 17:23:42 [INFO] com.cusp.qa.driver.DriverManager: Driver closed
+2026-07-16 17:23:42 [INFO] com.cusp.qa.home.HomeTest: Starting test: testInvestmentsTabNavigation
+2026-07-16 17:23:42 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 17:23:42 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
+2026-07-16 17:24:02 [DEBUG] com.cusp.qa.pages.onboarding.SplashPage: Tapping: AppiumBy.androidUIAutomator: new UiSelector().text("Get Started")
+2026-07-16 17:24:02 [WARN] com.cusp.qa.home.HomeTest: Test SKIPPED: testInvestmentsTabNavigation
+2026-07-16 17:24:02 [INFO] com.cusp.qa.home.HomeTest: Starting test: testNetWorthVisible
+2026-07-16 17:24:02 [INFO] com.cusp.qa.driver.DriverManager: Device screen unlocked
+2026-07-16 17:24:02 [INFO] com.cusp.qa.driver.DriverManager: Starting AndroidDriver at http://127.0.0.1:4723
