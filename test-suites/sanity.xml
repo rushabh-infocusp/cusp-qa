@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cusp Sanity Suite" verbose="1" thread-count="1">
+
+    <test name="Sanity - Onboarding">
+        <classes>
+            <class name="com.cusp.qa.onboarding.OnboardingTest">
+                <methods>
+                    <include name="testSplashScreenDisplayed"/>
+                    <include name="testNavigateToLogin"/>
+                    <include name="testSuccessfulLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Sanity - Home Navigation">
+        <classes>
+            <class name="com.cusp.qa.home.HomeTest">
+                <methods>
+                    <include name="testHomeScreenLoaded"/>
+                    <include name="testNetWorthVisible"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

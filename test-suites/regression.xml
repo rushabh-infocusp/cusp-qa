@@ -1,0 +1,46 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cusp Regression Suite" verbose="1" thread-count="1">
+
+    <test name="Onboarding Tests">
+        <classes>
+            <class name="com.cusp.qa.onboarding.OnboardingTest"/>
+        </classes>
+    </test>
+
+    <test name="Home Tests">
+        <classes>
+            <class name="com.cusp.qa.home.HomeTest"/>
+        </classes>
+    </test>
+
+    <test name="Transactions Tests">
+        <classes>
+            <class name="com.cusp.qa.transactions.TransactionsTest"/>
+        </classes>
+    </test>
+
+    <test name="Investments Tests">
+        <classes>
+            <class name="com.cusp.qa.investments.MutualFundsTest"/>
+        </classes>
+    </test>
+
+    <test name="Bank Accounts Tests">
+        <classes>
+            <class name="com.cusp.qa.bank_accounts.BankAccountsTest"/>
+        </classes>
+    </test>
+
+    <test name="Settings Tests">
+        <classes>
+            <class name="com.cusp.qa.settings.SettingsTest"/>
+        </classes>
+    </test>
+
+    <test name="KYC Tests">
+        <classes>
+            <class name="com.cusp.qa.kyc.KycTest"/>
+        </classes>
+    </test>
+
+</suite>

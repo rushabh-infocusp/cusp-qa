@@ -1,0 +1,32 @@
+TC ID,Title,Preconditions,Steps,Expected Results
+TC-01,KYC is the first accessible step in Investor Profile,"User is logged in; Investor Profile not yet started (KYC, CAN, Mandate = Blank).","1. Navigate to Investor Profile screen.
+2. Observe available sections.",KYC section is open/accessible; CAN and Mandate are locked/disabled.
+TC-02,CAN section stays locked until KYC is verified,KYC status = Blank.,"1. Go to Investor Profile screen.
+2. Try to open the CAN section.",CAN section is locked with a prompt to complete KYC first; user cannot enter CAN details.
+TC-03,Mandate section stays locked until CAN is verified,"KYC = Verified, CAN = Blank.","1. Go to Investor Profile screen.
+2. Try to open the Mandate section.",Mandate section is locked with a prompt to complete CAN first; user cannot enter Mandate details.
+TC-04,CAN unlocks immediately after KYC is verified,"KYC = Blank, CAN = Blank.","1. Complete KYC until status changes to Verified.
+2. Return to Investor Profile screen.",CAN section is now unlocked and accessible without needing app restart.
+TC-05,Mandate unlocks immediately after CAN is verified,"KYC = Verified, CAN = Blank.","1. Complete CAN until status changes to Verified.
+2. Return to Investor Profile screen.",Mandate section is now unlocked and accessible without needing app restart.
+TC-06,KYC status shows Blank before completion,User has not started KYC.,"1. Open Investor Profile screen.
+2. Check KYC status indicator.",KYC status is displayed as Blank.
+TC-07,Complete KYC successfully,"KYC = Blank; user has valid KYC details/documents.","1. Open KYC section.
+2. Fill required details and submit.",KYC status updates to Verified; CAN section unlocks.
+TC-08,CAN status shows Blank before completion,"KYC = Verified, CAN not yet started.","1. Open Investor Profile screen.
+2. Check CAN status indicator.",CAN status is displayed as Blank.
+TC-09,Complete CAN successfully,"KYC = Verified, CAN = Blank.","1. Open CAN section.
+2. Fill required details and submit.",CAN status updates to Verified; Mandate section unlocks.
+TC-10,Mandate status shows Blank before completion,"KYC = Verified, CAN = Verified, Mandate not yet started.","1. Open Investor Profile screen.
+2. Check Mandate status indicator.",Mandate status is displayed as Blank.
+TC-11,Complete Mandate successfully,"KYC = Verified, CAN = Verified, Mandate = Blank.","1. Open Mandate section.
+2. Fill required bank/mandate details and submit.",Mandate status updates to Verified.
+TC-12,Complete full Investor Profile flow end-to-end,"KYC, CAN, Mandate all = Blank.","1. Complete KYC and verify status updates.
+2. Complete CAN and verify status updates.
+3. Complete Mandate and verify status updates.",All three sections show Verified; Investor Profile is marked complete overall.
+TC-13,Network drop during KYC submission,"KYC = Blank; KYC form filled, ready to submit.","1. Disable network just before/during KYC submission.
+2. Observe app behavior, then re-enable network.",App shows an error/retry state (no crash); KYC remains Blank; resubmission succeeds once network is restored.
+TC-14,Network drop during CAN submission,"KYC = Verified; CAN form filled, ready to submit.","1. Disable network just before/during CAN submission.
+2. Observe app behavior, then re-enable network.",App shows an error/retry state (no crash); CAN remains Blank; resubmission succeeds once network is restored.
+TC-15,Network drop during Mandate submission,"KYC = Verified, CAN = Verified; Mandate form filled, ready to submit.","1. Disable network just before/during Mandate submission.
+2. Observe app behavior, then re-enable network.",App shows an error/retry state (no crash); Mandate remains Blank; resubmission succeeds once network is restored.

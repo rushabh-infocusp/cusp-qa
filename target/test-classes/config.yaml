@@ -1,0 +1,28 @@
+appium:
+  serverUrl: "http://127.0.0.1:4723"
+
+android:
+  platformName: "Android"
+  automationName: "UiAutomator2"
+  appPackage: "com.infocusp.cuspmoney"
+  appActivity: "com.cuspmoney.app.MainActivity"
+  deviceName: "RushabhDevice"
+  udid: "emulator-5554"
+  appPath: ""
+  noReset: false
+  fullReset: false
+  autoGrantPermissions: true
+  newCommandTimeout: 120
+  adbExecTimeout: 120000
+  uiautomator2ServerLaunchTimeout: 120000
+  uiautomator2ServerInstallTimeout: 120000
+  skipDeviceInitialization: true
+
+timeouts:
+  implicit: 10
+  explicit: 20
+  pageLoad: 30
+
+testData:
+  mobileNumber: "6351738122"
+  otp: "123456"

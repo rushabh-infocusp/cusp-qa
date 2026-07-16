@@ -1,0 +1,10 @@
+/home/rushabh.bhagyawant/cusp-qa/src/test/java/com/cusp/qa/bank_accounts/BankAccountsTest.java
+/home/rushabh.bhagyawant/cusp-qa/src/test/java/com/cusp/qa/base/BaseTest.java
+/home/rushabh.bhagyawant/cusp-qa/src/test/java/com/cusp/qa/home/HomeTest.java
+/home/rushabh.bhagyawant/cusp-qa/src/test/java/com/cusp/qa/investments/MutualFundsTest.java
+/home/rushabh.bhagyawant/cusp-qa/src/test/java/com/cusp/qa/kyc/KycTest.java
+/home/rushabh.bhagyawant/cusp-qa/src/test/java/com/cusp/qa/launch/AppLaunchTest.java
+/home/rushabh.bhagyawant/cusp-qa/src/test/java/com/cusp/qa/login/CuspLoginTest.java
+/home/rushabh.bhagyawant/cusp-qa/src/test/java/com/cusp/qa/onboarding/OnboardingTest.java
+/home/rushabh.bhagyawant/cusp-qa/src/test/java/com/cusp/qa/settings/SettingsTest.java
+/home/rushabh.bhagyawant/cusp-qa/src/test/java/com/cusp/qa/transactions/TransactionsTest.java

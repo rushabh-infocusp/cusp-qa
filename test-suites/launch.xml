@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="App Launch Suite" verbose="2" thread-count="1">
+
+    <test name="Launch Cusp App">
+        <classes>
+            <class name="com.cusp.qa.launch.AppLaunchTest"/>
+        </classes>
+    </test>
+
+</suite>

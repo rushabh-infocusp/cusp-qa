@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cusp Smoke Suite" verbose="1" thread-count="1">
+
+    <test name="Smoke Tests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cusp.qa.login.CuspLoginTest"/>
+            <class name="com.cusp.qa.onboarding.OnboardingTest"/>
+            <class name="com.cusp.qa.home.HomeTest"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,1 @@
+{"uuid":"e08dce13-6668-4233-9e4c-c414a7db6f39","name":"com.cusp.qa.base.BaseTest.setUp","children":["df89f762-3e94-4b4e-a60c-ca4e0aacb36b"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1784187496702,"stop":1784187499623}],"afters":[],"start":1784187496702,"stop":1784187499623}
